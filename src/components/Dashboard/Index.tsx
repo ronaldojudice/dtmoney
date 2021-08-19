@@ -1,11 +1,14 @@
+import { Summary } from '../Summary';
+import { TransactionsTable } from '../TransactionsTable';
 import { Container } from './../Dashboard/style';
-import { Summary } from './../Summary/index';
+
 
 export function Dashboard(){
   return(
     <Container>
       
-    <Summary/>
+      <Summary/>
+      <TransactionsTable/> 
 
     </Container>
   );

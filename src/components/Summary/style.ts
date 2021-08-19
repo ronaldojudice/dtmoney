@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-max-width: 1120px;
+  max-width: 1120px;
   margin: 0 auto;
   padding: 2rem 1rem 12rem ;
   align-items: center;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap:2rem;
-  margin-top: -10rem;
+  margin-top: -9rem;
   justify-content:space-between;
 
   div{
@@ -35,7 +35,7 @@ p{
 left: 9.09%;
 right: 70.45%;
 top: 18.52%;
-bottom: 63.7%;
+
 
 font-family: Poppins;
 font-weight: normal;
