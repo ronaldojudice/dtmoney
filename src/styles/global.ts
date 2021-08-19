@@ -3,7 +3,7 @@ import {createGlobalStyle} from 'styled-components';
 export const GlobalStyled =  createGlobalStyle`
 
 :root{
-    --background : #f0f2f5;
+    --background : #F0F2F5;;
     --red:#e52e4d;
     --blue:#5429cc;
     --green:#33cc95;
@@ -12,7 +12,7 @@ export const GlobalStyled =  createGlobalStyle`
     --text-title:#363f5f;
     --text-body:#969cb3;
 
-    --shape:#ffffff;
+    --shape:#FFFFFF;
 
 
 }
@@ -20,6 +20,8 @@ export const GlobalStyled =  createGlobalStyle`
 body, input, textarea, button{
     font-family: 'Poppins', sans-serif; 
     font-weight:400 ;
+    background: var(--background);
+  
 
 } 
 h1,h2,h3,h4,h5,h6{
@@ -35,16 +37,17 @@ h1,h2,h3,h4,h5,h6{
 html{
     @media(max-width:1080px){
         font-size:  93.75%;
+     
     }
 
     @media(max-width:720px){
-        font-size:87.5%--background;
+        font-size:87.5%;
+        
     }
 }
 
 
 body{
-    background: (----background);
     -webkit-font-font-smooth:antialiased;
 }
 
