@@ -79,10 +79,23 @@ button{
     width: 100%;
     max-width:576px ;
     background: var(--background);
-    padding: 9rem;
+    padding: 4rem;
     position: relative;
     border-radius: 0.25rem;
 
+}
+.react-modal-close{
+
+    position: absolute;
+    background: transparent;
+    padding :1rem;
+    right: 1.5rem;
+    top: 1.0rem;
+    border:0;
+    transition: filter(0.2s);
+    &:hover{
+        filter: brightness(0.8);
+    }
 }
 
 `
