@@ -69,12 +69,12 @@ gap:0.3rem;
 
 interface propsRadioBox{
   isActive: boolean;
-  ActiveColor:'red'| 'green';
+  ActiveColor:'red'|'green';
 }
 
 const colors = {
-  red:'e52e4d',
-  green:'33cc95'
+  red:'#e52e4d',
+  green:'#33cc95'
 }
 
 export const RadioBox = styled.button<propsRadioBox>`
