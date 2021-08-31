@@ -31,6 +31,10 @@ strong{
 &.highlight-background{
   background: var(--green);
   color:#fff;
-  }
+  
+  &.withdraw {
+    color: var(--red);
 }
+}
+  }
 `;
