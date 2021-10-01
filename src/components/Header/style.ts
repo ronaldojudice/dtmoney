@@ -11,6 +11,7 @@ export const Content = styled.div`
   margin: 0 auto;
   padding: 2rem 1rem 12rem ;
   align-items: center;
+  border:0
   display: flex;
   justify-content:space-between;
 
